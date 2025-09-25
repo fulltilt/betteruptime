@@ -1,0 +1,21 @@
+POST http://localhost:3002/user/signup HTTP/1.1
+content-type: application/json
+
+{
+  "username": "name",
+  "password": "password"
+}
+
+###
+
+POST https://djcollects.com/api/ebay/webhook HTTP/1.1
+content-type: application/json
+
+{}
+
+###
+
+GET https://www.djcollects.com HTTP/1.1
+content-type: application/json
+
+{}

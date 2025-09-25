@@ -1,4 +1,4 @@
-docker run -p 5432:5432 -e POSTGRES_PASSWORD=postgres postgres
+docker run -p 5433:5432 -e POSTGRES_PASSWORD=postgres postgres
 
 # Turborepo starter
 
